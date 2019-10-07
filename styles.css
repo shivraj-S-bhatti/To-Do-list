@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Pacifico|Rubik&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    background: #011638;
+}
+
+#top {
+    color: #011638;
+    background-color: #E5F9E0;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 8px;
+    border-color: #07BEB8;
+    text-align: center;
+}
+
+#todoitem {
+    position: relative;
+    top: 53px;
+    left: 10vw;
+    height: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 8px;
+    padding: 10px;
+    border-color: #07BEB8;
+    width: 400px;
+}
+
+div.absolute {
+    position: absolute;
+    right: 30vw;
+}
+
+#add {
+    color: #E5F9E0;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+#Pending {
+    color: #E5F9E0;
+    margin-left: 30vw;
+    float: left;
+    border-style: outset;
+    border-color: rgb(7, 190, 114);
+    border-width: 5px;
+    width: 450px;
+    padding: 10px;
+    font-size: 25px;
+    word-wrap: break-word;
+    font-family: 'Acme', sans-serif;
+}
+
+.lists {
+    position: relative;
+    top: 20vh;
+    display: inline-block;
+}
+
+#Rpen {
+    position: absolute;
+    top: -30px;
+    left: 450px;
+}
+
+#DelPen {
+    position: absolute;
+    top: -30px;
+    right: 250px;
+}

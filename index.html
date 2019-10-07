@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>To Do App</title>
+</head>
+
+<body>
+
+    <header id='top'>⏳⏱ To Do List ⏰⌛️<sub></sub></header>
+
+    <div id='inputs'>
+
+
+    </div>
+    <div class="relative">
+        <input type="text" name="input" id="todoitem" placeholder="Enter what you want to add to the list here">
+        <div class="absolute">
+            <span id="add"> <sub>Click here to add</sub> <input type="button" value="" onclick="Exec()" id='submit'></span>
+        </div>
+    </div>
+
+    <div class='lists'>
+        <!-- <span id='click2D'><sub>Click here to delete an item</sub></span><input type="button" value="" id='DelPen'> -->
+        <button id='DelPen' onclick="rmELE()">REMOVE</button>
+
+        <span id="Pending">
+            
+            <ol id='penL'> 
+                <h2>Pending  Items</h2>
+
+            </ol>
+        </span>
+
+    </div>
+
+    <!-- <footer> A Kartik Gupta's Project</footer> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
